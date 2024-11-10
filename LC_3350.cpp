@@ -39,6 +39,7 @@ public:             // Completely coded by me during weekly contest :)
             return dp[0]/2; 
             // return (dp[0] == n) ? dp[0]/2 : dp[0]; 
         }
+        // I used the couple of lines below to view the dp table as well as possible :) 
         // for(int i = 0; i < n; i++) cout<<dp[i]<<"  "; 
         // cout<<endl; 
         return maxi; 
